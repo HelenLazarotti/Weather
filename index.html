@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
     <link rel="stylesheet" href="css/index.css">
+     <!--E o Font Awesome para os ícones
+        Digito no google: cdn js > entro > procuro por > font awesome > clico > 1º item copio > colo aqui-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -15,7 +17,9 @@
             <div class="form-input-container">
                 <input type="text" placeholder="Digite o nome da cidade" id="city-input">
                 <button id="search">
+                     <!--Quando tabalho com o font awesome, preciso por sempre:-->
                     <i class="fa-solid fa-magnifying-glass"></i>
+                    <!--Criou já o campo de search com a lupinha-->
                 </button>
             </div>
         </div>
@@ -26,6 +30,8 @@
                 <span id="city"></span>
                 <img src="" alt="Bandeira da cidade" id="country">
             </h2>
+            
+            <!--Uso o &deg para colocar o icone de graus-->
             <p id="temperature"><span></span>&deg;C</p>
 
             <div id="description-container">
